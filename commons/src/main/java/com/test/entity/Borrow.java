@@ -3,8 +3,8 @@ package com.test.entity;
 import lombok.Data;
 
 @Data
-public class Book {
+public class Borrow {
+    int id;
+    int uid;
     int bid;
-    String name;
-    String desc;
 }
