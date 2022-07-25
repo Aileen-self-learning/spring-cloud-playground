@@ -6,8 +6,9 @@ import com.test.entity.User;
 import com.test.entity.UserBorrowDetail;
 import com.test.mapper.BorrowMapper;
 import com.test.service.BorrowService;
+import com.test.service.client.BookClient;
+import com.test.service.client.UserClient;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -20,16 +21,19 @@ public class BorrowServiceImpl implements BorrowService {
     BorrowMapper mapper;
 
     @Resource
-    RestTemplate template;
+    UserClient userClient;
+
+    @Resource
+    BookClient bookClient;
 
     @Override
     public UserBorrowDetail getUserBorrowDetailByUid(int uid) {
         List<Borrow> borrowList = mapper.getBorrowRecordsByUid(uid);
         //RestTemplate支持多种方式的远程调用
-        User user = template.getForObject("http://userService/user/"+uid, User.class);
+        User user = userClient.findUserById(uid);
         List<Book> bookList = borrowList
                 .stream()
-                .map(borrow -> template.getForObject("http://bookService/book/"+borrow.getBid(), Book.class))
+                .map(borrow -> bookClient.findBookById(borrow.getBid()))
                 .collect(Collectors.toList());
         return new UserBorrowDetail(user, bookList);
     }
