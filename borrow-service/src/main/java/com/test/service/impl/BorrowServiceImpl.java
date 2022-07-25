@@ -9,7 +9,6 @@ import com.test.service.BorrowService;
 import com.test.service.client.BookClient;
 import com.test.service.client.UserClient;
 import org.springframework.stereotype.Service;
-
 import javax.annotation.Resource;
 import java.util.List;
 import java.util.stream.Collectors;
