@@ -6,3 +6,9 @@ spring:
     url: jdbc:mysql://localhost:3308/cloudstudy
     username: root
     password: password
+  application:
+    name: borrowService
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
