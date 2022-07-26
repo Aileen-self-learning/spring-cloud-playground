@@ -3,6 +3,13 @@ server:
 spring:
   application:
     name: configServer
+  cloud:
+    config:
+      server:
+        git:
+          # 远程仓库直接填写地址
+          uri: file://${user.home}/IdeaProjects/studying/config-repo
+          default-label: master
 eureka:
   client:
     service-url:

@@ -3,11 +3,6 @@ server:
 spring:
   application:
     name: bookService
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3308/cloudstudy
-    username: root
-    password: password
 eureka:
   client:
     service-url:
