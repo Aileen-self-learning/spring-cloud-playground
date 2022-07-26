@@ -3,5 +3,5 @@ spring:
     config:
       name: bookservice
       uri: http://localhost:8700
-      profile: dev
+      profile: prod
       label: master
