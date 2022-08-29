@@ -6,3 +6,9 @@ spring:
     url: jdbc:mysql://localhost:3308/cloudstudy
     username: root
     password: password
+  application:
+    name: book-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848

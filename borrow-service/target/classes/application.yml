@@ -7,16 +7,8 @@ spring:
     username: root
     password: password
   application:
-    name: borrowService
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8801/eureka, http://localhost:8802/eureka
-feign:
-  circuitbreaker:
-    enabled: true
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+    name: borrow-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
