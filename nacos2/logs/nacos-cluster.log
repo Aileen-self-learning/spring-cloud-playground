@@ -1,0 +1,16 @@
+2022-09-02 13:28:56,630 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2022-09-02 13:28:56,634 WARN [serverlist] updated to : [Member{ip='192.168.2.4', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2022-09-02 13:28:58,549 INFO This node is ready to provide external services
+
+2022-09-02 15:08:46,707 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2022-09-02 15:08:46,709 WARN [serverlist] self ip Member{ip='192.168.2.4', port=8802, state=UP, extendInfo={raftPort=7802, version=1.4.3}} not in serverlist [Member{ip='192.168.2.4', port=8802, state=UP, extendInfo={raftPort=7802, version=1.4.3}}, Member{ip='127.0.0.1', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='127.0.0.1', port=8801, state=UP, extendInfo={raftPort=7801}}]
+
+2022-09-02 15:08:46,709 WARN [serverlist] updated to : [Member{ip='192.168.2.4', port=8802, state=UP, extendInfo={raftPort=7802, version=1.4.3}}, Member{ip='127.0.0.1', port=8802, state=DOWN, extendInfo={raftPort=7802}}, Member{ip='127.0.0.1', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-09-02 15:08:48,128 WARN [serverlist] updated to : [Member{ip='192.168.2.4', port=8802, state=UP, extendInfo={raftPort=7802}}, Member{ip='127.0.0.1', port=8802, state=DOWN, extendInfo={raftPort=7802}}, Member{ip='127.0.0.1', port=8801, state=DOWN, extendInfo={raftPort=7801}}]
+
+2022-09-02 15:08:49,384 INFO This node is ready to provide external services
+

@@ -1,0 +1,9 @@
+2022-08-31 22:52:14,158|192.168.2.4|user-service-dev.yml|DEFAULT_GROUP|null|null|1661957534128|192.168.2.4|persist|pub|-1|b539d43dde5252ab3ef0d08341b5d4d1
+2022-08-31 22:52:14,232|192.168.2.4|user-service-dev.yml|DEFAULT_GROUP|null|null|1661957534128|192.168.2.4|notify|ok|102|192.168.2.4:8848
+2022-08-31 22:52:14,284|192.168.2.4|user-service-dev.yml|DEFAULT_GROUP|null|null|1661957534128|192.168.2.4|dump|ok|156|159
+2022-08-31 23:00:13,246|192.168.2.4|user-service|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2022-08-31 23:00:13,257|192.168.2.4|user-service.yml|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2022-08-31 23:00:13,275|192.168.2.4|user-service-dev.yml|DEFAULT_GROUP|null|unknown|1661957534128|pull|ok|479147|127.0.0.1
+2022-08-31 23:00:14,967|192.168.2.4|user-service|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2022-08-31 23:00:14,975|192.168.2.4|user-service.yml|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2022-08-31 23:00:14,979|192.168.2.4|user-service-dev.yml|DEFAULT_GROUP|null|unknown|1661957534128|pull|ok|480851|127.0.0.1

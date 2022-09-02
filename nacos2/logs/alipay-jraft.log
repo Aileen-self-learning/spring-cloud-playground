@@ -1,0 +1,156 @@
+2022-09-02 15:08:46,960 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2022-09-02 15:08:47,059 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2022-09-02 15:08:47,464 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeDescribeSignalHandler] loading.
+
+2022-09-02 15:08:47,465 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeMetricsSignalHandler] loading.
+
+2022-09-02 15:08:47,465 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.ThreadPoolMetricsSignalHandler] loading.
+
+2022-09-02 15:08:47,468 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2022-09-02 15:08:47,473 INFO The number of active nodes increment to 1.
+
+2022-09-02 15:08:47,763 INFO Starts FSMCaller successfully.
+
+2022-09-02 15:08:47,768 WARN No data for snapshot reader /Users/aileen/IdeaProjects/studying/spring-cloud-playground/nacos2/data/protocol/raft/naming_persistent_service/snapshot.
+
+2022-09-02 15:08:47,783 INFO Node <naming_persistent_service/192.168.2.4:7802> init, term=0, lastLogId=LogId [index=0, term=0], conf=127.0.0.1:7801,192.168.2.4:7802,127.0.0.1:7802, oldConf=.
+
+2022-09-02 15:08:47,784 WARN RPC server is not started in RaftGroupService.
+
+2022-09-02 15:08:47,784 INFO Start the RaftGroupService successfully.
+
+2022-09-02 15:08:47,842 WARN Channel in TRANSIENT_FAILURE state: 127.0.0.1:7801.
+
+2022-09-02 15:08:47,842 WARN Channel in SHUTDOWN state: 127.0.0.1:7801.
+
+2022-09-02 15:08:48,156 WARN Channel in TRANSIENT_FAILURE state: 192.168.2.4:7802.
+
+2022-09-02 15:08:48,156 WARN Channel in SHUTDOWN state: 192.168.2.4:7802.
+
+2022-09-02 15:08:48,227 WARN Channel in TRANSIENT_FAILURE state: 127.0.0.1:7802.
+
+2022-09-02 15:08:48,227 WARN Channel in SHUTDOWN state: 127.0.0.1:7802.
+
+2022-09-02 15:08:53,069 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:08:53,074 WARN Channel in TRANSIENT_FAILURE state: 127.0.0.1:7802.
+
+2022-09-02 15:08:53,074 WARN Channel in SHUTDOWN state: 127.0.0.1:7802.
+
+2022-09-02 15:08:53,074 INFO Peer 127.0.0.1:7802 is connected.
+
+2022-09-02 15:08:53,084 WARN Channel in TRANSIENT_FAILURE state: 127.0.0.1:7801.
+
+2022-09-02 15:08:53,084 INFO Peer 127.0.0.1:7801 is connected.
+
+2022-09-02 15:08:53,084 WARN Channel in SHUTDOWN state: 127.0.0.1:7801.
+
+2022-09-02 15:08:53,086 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:08:53,096 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:08:58,975 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:08:58,981 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:08:58,981 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:09:04,936 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:09:04,940 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:09:04,940 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:09:10,632 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:09:10,637 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:09:10,639 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:09:16,363 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:09:16,367 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:09:16,368 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:09:22,137 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:09:22,141 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:09:22,142 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:09:28,016 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:09:28,021 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:09:28,021 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:09:33,247 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:09:33,249 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:09:33,250 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:09:38,843 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:09:38,847 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:09:38,847 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:09:44,764 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:09:44,767 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:09:44,767 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:09:50,018 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:09:50,021 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:09:50,022 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:09:55,299 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:09:55,303 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:09:55,303 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:10:01,265 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:10:01,269 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:10:01,269 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:10:06,299 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:10:06,302 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:10:06,303 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:10:12,108 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:10:12,111 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:10:12,112 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:10:17,559 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:10:17,562 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:10:17,562 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:10:23,006 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:10:23,009 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:10:23,009 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+
+2022-09-02 15:10:28,276 INFO Node <naming_persistent_service/192.168.2.4:7802> term 0 start preVote.
+
+2022-09-02 15:10:28,278 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7802 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7802, group: naming_persistent_service].
+
+2022-09-02 15:10:28,279 WARN Node <naming_persistent_service/192.168.2.4:7802> PreVote to 127.0.0.1:7801 error: Status[ENOENT<1012>: Peer id not found: 127.0.0.1:7801, group: naming_persistent_service].
+

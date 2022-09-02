@@ -1,0 +1,168 @@
+2022-09-02 13:28:57,441 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.2.4:8201:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2022-09-02 13:28:57,443 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.2.4:8201_true,
+
+2022-09-02 13:28:57,715 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.2.4:8201_true,
+
+2022-09-02 13:28:57,716 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.2.4:8201_true,
+
+2022-09-02 13:29:01,709 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid-now: 192.168.2.4:8201@Chengdu, region: unknown, msg: tcp:unable2connect:Connection refused
+
+2022-09-02 13:42:49,997 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.2.4:8302:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2022-09-02 13:42:49,998 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.2.4:8302_true,
+
+2022-09-02 13:42:51,100 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chongqing, new ips size: 1, content: [192.168.2.4:8301:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2022-09-02 13:42:51,100 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.2.4:8302_true,192.168.2.4:8301_true,
+
+2022-09-02 13:42:53,447 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.2.4:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2022-09-02 13:42:53,447 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.2.4:8102_true,
+
+2022-09-02 13:42:55,614 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chongqing, new ips size: 1, content: [192.168.2.4:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2022-09-02 13:42:55,614 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.2.4:8102_true,192.168.2.4:8101_true,
+
+2022-09-02 13:42:57,873 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.2.4:8201_false,
+
+2022-09-02 13:42:59,026 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.2.4:8201@Chengdu in 1, msg: tcp:ok+
+
+2022-09-02 13:43:04,024 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.2.4:8201@Chengdu in 2, msg: tcp:ok+
+
+2022-09-02 13:43:07,836 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.2.4:8201@Chengdu, region: unknown, msg: tcp:ok+
+
+2022-09-02 13:45:39,787 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.2.4:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2022-09-02 13:45:39,787 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.2.4:8101_true,
+
+2022-09-02 13:45:39,862 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chongqing, dead ips size: 1, content: [192.168.2.4:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2022-09-02 13:45:39,862 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2022-09-02 13:45:56,708 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chongqing, new ips size: 1, content: [192.168.2.4:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2022-09-02 13:45:56,708 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.2.4:8101_true,
+
+2022-09-02 13:45:58,375 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.2.4:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2022-09-02 13:45:58,375 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.2.4:8102_true,192.168.2.4:8101_true,
+
+2022-09-02 13:53:57,749 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.2.4:8302:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2022-09-02 13:53:57,749 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.2.4:8301_true,
+
+2022-09-02 13:53:57,821 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chongqing, dead ips size: 1, content: [192.168.2.4:8301:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2022-09-02 13:53:57,821 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2022-09-02 13:54:03,855 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.2.4:8201_true,
+
+2022-09-02 13:54:04,849 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid-now: 192.168.2.4:8201@Chengdu, region: unknown, msg: tcp:unable2connect:Connection refused
+
+2022-09-02 13:54:13,118 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.2.4:8302:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2022-09-02 13:54:13,118 INFO [IP-UPDATED] namespace: 6a3ccf77-80cb-44b4-a566-6f938d0eaccb, service: DEFAULT_GROUP@@book-service, ips: 192.168.2.4:8302_true,
+
+2022-09-02 13:54:14,726 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chongqing, new ips size: 1, content: [192.168.2.4:8301:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2022-09-02 13:54:14,726 INFO [IP-UPDATED] namespace: 6a3ccf77-80cb-44b4-a566-6f938d0eaccb, service: DEFAULT_GROUP@@book-service, ips: 192.168.2.4:8302_true,192.168.2.4:8301_true,
+
+2022-09-02 13:54:18,242 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.2.4:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2022-09-02 13:54:18,243 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.2.4:8101_true,
+
+2022-09-02 13:54:18,346 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chongqing, dead ips size: 1, content: [192.168.2.4:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2022-09-02 13:54:18,346 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2022-09-02 13:54:31,982 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.2.4:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2022-09-02 13:54:31,982 INFO [IP-UPDATED] namespace: 6a3ccf77-80cb-44b4-a566-6f938d0eaccb, service: DEFAULT_GROUP@@user-service, ips: 192.168.2.4:8102_true,
+
+2022-09-02 13:54:35,663 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chongqing, new ips size: 1, content: [192.168.2.4:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2022-09-02 13:54:35,663 INFO [IP-UPDATED] namespace: 6a3ccf77-80cb-44b4-a566-6f938d0eaccb, service: DEFAULT_GROUP@@user-service, ips: 192.168.2.4:8102_true,192.168.2.4:8101_true,
+
+2022-09-02 13:55:11,066 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.2.4:8201_false,
+
+2022-09-02 13:55:14,242 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.2.4:8201@Chengdu in 1, msg: tcp:ok+
+
+2022-09-02 13:55:19,214 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.2.4:8201@Chengdu in 2, msg: tcp:ok+
+
+2022-09-02 13:55:23,005 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.2.4:8201@Chengdu, region: unknown, msg: tcp:ok+
+
+2022-09-02 14:07:03,814 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.2.4:8201_true,
+
+2022-09-02 14:07:04,155 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid-now: 192.168.2.4:8201@Chengdu, region: unknown, msg: tcp:unable2connect:Connection refused
+
+2022-09-02 14:07:19,111 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.2.4:8201:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2022-09-02 14:07:19,112 INFO [IP-UPDATED] namespace: 6a3ccf77-80cb-44b4-a566-6f938d0eaccb, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.2.4:8201_true,
+
+2022-09-02 14:07:19,112 INFO [IP-UPDATED] namespace: 6a3ccf77-80cb-44b4-a566-6f938d0eaccb, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.2.4:8201_true,
+
+2022-09-02 14:07:21,267 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.2.4:8201@Chengdu in 1, msg: tcp:ok+
+
+2022-09-02 14:07:21,643 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.2.4:8201@Chengdu in 2, msg: tcp:ok+
+
+2022-09-02 14:07:23,917 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.2.4:8201@Chengdu, region: unknown, msg: tcp:ok+
+
+2022-09-02 14:07:25,556 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.2.4:8201@Chengdu, region: unknown, msg: tcp:ok+
+
+2022-09-02 14:50:53,723 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.2.4:8201@Chengdu in 1, msg: tcp:timeout
+
+2022-09-02 14:56:37,347 INFO {POS} {IP-DISABLED} valid: 192.168.2.4:8302@Chengdu@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1662101511809
+
+2022-09-02 14:56:37,371 INFO {POS} {IP-DISABLED} valid: 192.168.2.4:8301@Chongqing@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1662101513815
+
+2022-09-02 14:56:37,469 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chongqing, dead ips size: 1, content: [192.168.2.4:8301:unknown:Chongqing_1.0_false_false_Chongqing]
+
+2022-09-02 14:56:37,470 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.2.4:8302:unknown:Chengdu_1.0_false_false_Chengdu]
+
+2022-09-02 14:56:37,470 INFO [IP-UPDATED] namespace: 6a3ccf77-80cb-44b4-a566-6f938d0eaccb, service: DEFAULT_GROUP@@book-service, ips: 
+
+2022-09-02 14:56:38,749 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.2.4:8302:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2022-09-02 14:56:38,749 INFO [IP-UPDATED] namespace: 6a3ccf77-80cb-44b4-a566-6f938d0eaccb, service: DEFAULT_GROUP@@book-service, ips: 192.168.2.4:8302_true,
+
+2022-09-02 14:56:40,757 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chongqing, new ips size: 1, content: [192.168.2.4:8301:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2022-09-02 14:56:40,757 INFO [IP-UPDATED] namespace: 6a3ccf77-80cb-44b4-a566-6f938d0eaccb, service: DEFAULT_GROUP@@book-service, ips: 192.168.2.4:8302_true,192.168.2.4:8301_true,
+
+2022-09-02 15:01:36,729 INFO {POS} {IP-DISABLED} valid: 192.168.2.4:8302@Chengdu@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1662101808766
+
+2022-09-02 15:01:36,729 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.2.4:8201@Chengdu in 1, msg: tcp:timeout
+
+2022-09-02 15:01:36,729 INFO {POS} {IP-DISABLED} valid: 192.168.2.4:8301@Chongqing@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1662101810774
+
+2022-09-02 15:01:36,753 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.2.4:8302:unknown:Chengdu_1.0_false_false_Chengdu]
+
+2022-09-02 15:01:36,754 INFO [IP-UPDATED] namespace: 6a3ccf77-80cb-44b4-a566-6f938d0eaccb, service: DEFAULT_GROUP@@book-service, ips: 192.168.2.4:8301_false,
+
+2022-09-02 15:01:37,948 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chongqing, dead ips size: 1, content: [192.168.2.4:8301:unknown:Chongqing_1.0_false_false_Chongqing]
+
+2022-09-02 15:01:37,950 INFO [IP-UPDATED] namespace: 6a3ccf77-80cb-44b4-a566-6f938d0eaccb, service: DEFAULT_GROUP@@book-service, ips: 
+
+2022-09-02 15:01:38,010 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.2.4:8302:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2022-09-02 15:01:38,010 INFO [IP-UPDATED] namespace: 6a3ccf77-80cb-44b4-a566-6f938d0eaccb, service: DEFAULT_GROUP@@book-service, ips: 192.168.2.4:8302_true,
+
+2022-09-02 14:56:57,006 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chongqing, new ips size: 1, content: [192.168.2.4:8301:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2022-09-02 14:56:57,006 INFO [IP-UPDATED] namespace: 6a3ccf77-80cb-44b4-a566-6f938d0eaccb, service: DEFAULT_GROUP@@book-service, ips: 192.168.2.4:8302_true,192.168.2.4:8301_true,
+
+2022-09-02 14:58:24,165 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-09-02 15:08:48,303 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.2.4:8201:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2022-09-02 15:08:48,305 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.2.4:8201_true,
+
+2022-09-02 15:08:48,315 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.2.4:8201:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2022-09-02 15:08:48,315 INFO [IP-UPDATED] namespace: 6a3ccf77-80cb-44b4-a566-6f938d0eaccb, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.2.4:8201_true,
+
+2022-09-02 15:08:50,385 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid-now: 192.168.2.4:8201@Chengdu, region: unknown, msg: tcp:unable2connect:Connection refused
+
+2022-09-02 15:08:51,908 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid-now: 192.168.2.4:8201@Chengdu, region: unknown, msg: tcp:unable2connect:Connection refused
+
