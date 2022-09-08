@@ -2,6 +2,7 @@ package com.test.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
@@ -17,6 +18,9 @@ public class OAuth2Configuration extends AuthorizationServerConfigurerAdapter {
 
     @Resource
     private AuthenticationManager authenticationManager;
+
+    @Resource
+    private UserDetailsService service;
 
     private final BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
 
@@ -48,6 +52,8 @@ public class OAuth2Configuration extends AuthorizationServerConfigurerAdapter {
     //由于SpringSecurity底层改动，需要配置AuthenticationManager，才能使用password模式
     @Override
      public void configure(AuthorizationServerEndpointsConfigurer endpoints) {
-         endpoints.authenticationManager(authenticationManager);
+         endpoints
+                 .userDetailsService(service) //设置用户信息服务
+                 .authenticationManager(authenticationManager);
      }
 }
