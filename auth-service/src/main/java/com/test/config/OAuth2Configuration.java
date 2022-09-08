@@ -34,7 +34,7 @@ public class OAuth2Configuration extends AuthorizationServerConfigurerAdapter {
                 .secret(encoder.encode("654321")) //只与客户端分享的secret
                 .autoApprove(false)  //设置是否自动审批
                 .scopes("book", "user", "borrow") //设置授权范围
-                .redirectUris("http://localhost:8201/login") //设置重定向地址
+                .redirectUris("http://localhost:8301/login") //设置重定向地址
                 .authorizedGrantTypes("client_credentials", "password", "implicit", "authorization_code", "refresh_token"); //设置授权模式
     }
 
